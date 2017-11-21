@@ -9,7 +9,9 @@
 - Portfolio
 - Drag and drop interface
 
-### Code Example
+### Code Example   
+
+
 
 ```ruby
 def my_great_method
@@ -21,4 +23,5 @@ end
 ```javascript
 alert('Hi there')
 ```
+
 
