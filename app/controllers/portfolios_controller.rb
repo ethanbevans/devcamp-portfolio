@@ -56,5 +56,4 @@ class PortfoliosController < ApplicationController
 		   
 		end
 	end
-
 end
