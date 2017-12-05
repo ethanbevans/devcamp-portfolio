@@ -47,4 +47,6 @@ puts "8 portfolio items created"
 	)
 end
 
-puts "1 portfolio item created"
+puts "9 portfolio items created"
+
+
