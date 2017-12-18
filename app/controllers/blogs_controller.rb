@@ -1,5 +1,5 @@
 class BlogsController < ApplicationController
-  before_action :set_blog, only: [:show, :edit, :update, :destroy]
+  before_action :set_blog, only: [:show, :edit, :update, :destroy] #saw :toggle_status in one of the guides but was never walked through how to implement
 
   # GET /blogs
   # GET /blogs.json
