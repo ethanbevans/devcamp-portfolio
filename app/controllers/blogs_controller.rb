@@ -1,4 +1,5 @@
 class BlogsController < ApplicationController
+
   before_action :set_blog, only: [:show, :edit, :update, :destroy, :toggle_status]
 
   # GET /blogs
@@ -28,7 +29,7 @@ class BlogsController < ApplicationController
 
     respond_to do |format|
       if @blog.save
-        format.html { redirect_to @blog, notice: 'Blog was successfully created.' }
+        format.html { redirect_to @blog, notice: 'Your post is now live.' }
         format.json { render :show, status: :created, location: @blog }
       else
         format.html { render :new }
@@ -62,6 +63,7 @@ class BlogsController < ApplicationController
   end
 
   def toggle_status
+    
     @blog.published! if @blog.draft?
     @blog.draft! if @blog.published?
 
