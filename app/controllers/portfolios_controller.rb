@@ -1,4 +1,6 @@
 class PortfoliosController < ApplicationController
+	layout 'portfolio'
+	
 #^ † was next to class and was causing errors
 	def index
 		@portfolio_items = Portfolio.all
