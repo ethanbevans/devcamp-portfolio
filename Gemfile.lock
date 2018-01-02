@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/ethanbevans/evans_view_tool
+  revision: 42eed9845a883a0784694b09f2390e9c38b9ed6f
+  specs:
+    evans_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -194,6 +200,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   devise (~> 4.3)
+  evans_view_tool!
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
   jquery-rails (~> 4.3, >= 4.3.1)

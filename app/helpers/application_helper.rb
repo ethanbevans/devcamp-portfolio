@@ -15,4 +15,8 @@ module ApplicationHelper
 			content_tag(:p, greeting, class: "source-greeting")
 		end
 	end
+
+	def copyright_generator
+		EvansViewTool::Renderer.copyright 'Ethan Evans', 'All Rights Reserved'
+	end
 end
