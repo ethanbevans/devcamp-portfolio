@@ -10,6 +10,7 @@ require "action_mailer/railtie"
 require "action_view/railtie"
 require "action_cable/engine"
 require "sprockets/railtie"
+# require "dotenv-rails" if there is an issue with the console processing .env
 # require "rails/test_unit/railtie"
 
 # Require the gems listed in Gemfile, including any gems
